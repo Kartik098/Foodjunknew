@@ -1,0 +1,67 @@
+ <section class="cart" style="background-color: #e9ecef;">
+     <div class="container-fluid w-50 py-2" style="background-color: #e9ecef;">
+         <div class="d-flex flex-row p-2 bd-highlight justify-content-center mx-auto p-3 border-bottom " style="background-color:rgba(0, 255, 255, 0.932) ;">
+             <img src="/images/black-cart.png" alt="" height="30px" width="30px" >
+             <h1 class="fs-4">Order summary</h1>
+         </div>
+       <% for(let fooditem of Object.values(cart.totalQty)){%>
+         <div class="order-list border-bottom border-2 ">
+         <div class="d-flex flex-row p-2 bd-highlight justify-content-center mx-auto p-3 my-2" style="background-color: rgba(0, 255, 255, 0.932);"">
+             <img src="/images/marinara.png" alt="" height="100px" width="100px">
+             <div class="flex-grow-1 ms-4">
+                <h5>MARINARA</h5>
+                <span>Medium</span>
+               </div>
+               <span class="flex-grow-1">1 Pcs</span>
+               <span class="fw-bold">Rs300</span>
+         </div>
+        <% } %>
+         <!-- <div class="d-flex flex-row p-2 bd-highlight justify-content-center mx-auto p-3 my-2" style="background-color: rgba(0, 255, 255, 0.932);"">
+            <img src="/images/marinara.png" alt="" height="100px" width="100px">
+            <div class="flex-grow-1 ms-4">
+               <h5>MARINARA</h5>
+               <span>Medium</span>
+              </div>
+              <span class="flex-grow-1">1 Pcs</span>
+              <span class="fw-bold">Rs300</span>
+        </div>
+        <div class="d-flex flex-row p-2 bd-highlight justify-content-center mx-auto p-3 my-2" style="background-color: rgba(0, 255, 255, 0.932);"">
+            <img src="/images/marinara.png" alt="" height="100px" width="100px">
+            <div class="flex-grow-1 ms-4">
+               <h5>MARINARA</h5>
+               <span>Medium</span>
+              </div>
+              <span class="flex-grow-1">1 Pcs</span>
+              <span class="fw-bold" >Rs300</span>
+         </div>
+    </div>  -->
+     
+     <hr>
+     <div class="text-end py-4">
+        <div>
+            <span class="fw-bold">Total Amount:</span>
+            <span class="fw-bold amount">Rs 900</span>
+        </div>
+        <div class="form-cart ">
+            <form action="" method="post" class="mt-5">
+                <input type="text" name="phone-number" class="border-2 border-info py-2 w-50 mb-2 rounded-full" placeholder="Phone number" required>
+                <input type="text" name="Address" placeholder="Address.." class="py-2 border-2 border-info w-50 rounded-3" required>
+                <!-- <button type="submit" class="rounded-3 btn mt-3">Order Now</button>-->
+            </form>
+        </div>
+        <a href="/login" class="px-6 rounded-3 btn mt-3 login">Login to continue</a>
+     </div>
+    </div>
+   <!-- <div class="container-fluid mx-auto text-center cart-empty">
+        <h1 class="h1">Cart Empty <i class="fas fa-smile" style="color: yellowgreen;"></i><br></h1>
+        
+        
+        <br><p>You probably haven't ordered any food yet. <br>
+            To order any item, go to the main page.</p>
+            <img src="/images/cartpng.png" alt="" height="500px" width="500px"><br>
+            <a href='https://pngtree.com/so/Man' style="font-size: xx-small;">Man png from pngtree.com/</a>
+    </div>
+    <a class="btn btn-secondary rounded-3" href="/">Go back</a> -->
+    <div class="push-2"></div>
+</section>
+<script src="/js/app.js"></script>
