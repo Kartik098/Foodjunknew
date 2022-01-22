@@ -1,0 +1,141 @@
+
+    [{
+        "__id":1,
+        "Name":"Paneer tikka masala",
+        "image":"Paneertikka.png",
+        "price":"150",
+        "size":"regular"
+    },{
+    "__id":2,
+    "Name":"Paneer handi",
+    "image":"Paneerhandi.png",
+    "price":"160",
+    "size":"regular"
+},{
+    "__id":3,
+    "Name":"Paneer Bhurji",
+    "image":"Paneerbhurji.png",
+    "price":"140",
+    "size":"regular"
+},{
+    "__id":4,
+    "Name":"Shahi Paneer ",
+    "image":"ShahiPaneer.png",
+    "price":"160",
+    "size":"regular"
+},{
+    "__id":5,
+    "Name":"Mix-Vegetable",
+    "image":"Mix-Vegitable.png",
+    "price":"130",
+    "size":"regular"
+},{
+    "__id":6,
+    "Name":"French-fries",
+    "image":"frenchfries.png",
+    "price":"90",
+    "size":"regular"
+},{
+    "__id":7,
+    "Name":"French-fries",
+    "image":"frenchfries-2.png",
+    "price":"110",
+    "size":"Medium"
+},{
+    "__id":8,
+    "Name":"Burger",
+    "image":"Burger.png",
+    "price":"50",
+    "size":"regular"
+},{
+    "__id":9,
+    "Name":"Burger",
+    "image":"Burger.png",
+    "price":"80",
+    "size":"Whooper"
+},{
+    "__id":10,
+    "Name":"Tandoori Roti",
+    "image":"Tandooriroti.png",
+    "price":"25",
+    "size":"regular"
+},{
+    "__id":11,
+    "Name":"Roti",
+    "image":"roti.png",
+    "price":"15",
+    "size":"regular"
+},{
+    "__id":12,
+    "Name":"Rumali roti",
+    "image":"rumaliroti.png",
+    "price":"20",
+    "size":"regular"
+},{
+    "__id":13,
+    "Name":"Frankie",
+    "image":"Frankie.png",
+    "price":"40",
+    "size":"regular"
+},{
+    "__id":14,
+    "Name":"Panner Frankie",
+    "image":"Frankie.png",
+    "price":"60",
+    "size":"regular"
+},{
+    "__id":15,
+    "Name":"Hotdog",
+    "image":"Hotdog.png",
+    "price":"50",
+    "size":"regular"
+},{
+    "__id":16,
+    "Name":"Margarita",
+    "image":"Margarita.png",
+    "price":"100",
+    "size":"small"
+},{
+    "__id":17,
+    "Name":"Margarita",
+    "image":"Margarita.png",
+    "price":"170",
+    "size":"Medium"
+},{
+    "__id":18,
+    "Name":"Margarita",
+    "image":"Margarita.png",
+    "price":"250",
+    "size":"large"
+},{
+    "__id":19,
+    "Name":"Marinara",
+    "image":"Marinara.png",
+    "price":"110",
+    "size":"small"
+},{
+    "__id":20,
+    "Name":"Marinara",
+    "image":"Marinara.png",
+    "price":"200",
+    "size":"medium"
+},{
+    "__id":21,
+    "Name":"Marinara",
+    "image":"Marinara.png",
+    "price":"280",
+    "size":"large"
+},{
+    "__id":22,
+    "Name":"Pav-bhaji",
+    "image":"Pav-bhaji.png",
+    "price":"90",
+    "size":"regular"
+},{
+    "__id":23,
+    "Name":"Sev-usal",
+    "image":"Sevusal.png",
+    "price":"50",
+    "size":"regular"
+}
+    ]
